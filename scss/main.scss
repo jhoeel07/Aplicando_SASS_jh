@@ -80,6 +80,29 @@ h1{
     color: rgb(0, 0, 0);
     font-weight: bold;
     position: relative;
+
+
+    .VOLVER{
+
+        display: none;
+    
+    }
+
+    button{
+
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 4%, rgba(41,47,47,1) 100%);
+        color: rgb(255, 255, 255);
+        border-radius: 15px;
+       
+        font-size: 10px;
+        height: auto;
+        width: 50px;
+    
+    
+    } 
+
+
 }
 
 .nav_secu {
@@ -101,6 +124,23 @@ h1{
 
 }
 
+/*----------------------- BOOTSTRAP------------------------- */
 
-@import "_segundoMenu";
-@import "_mediaScreens";
+.accordion-button {
+
+    background: chartreuse;
+}
+
+/*ESPACIOS ENTRE LAS FILAS DE LA PARETE DE SNAKERS YEZZE DRAGON BALL*/
+
+.row-yeze-3{
+
+    margin-top: 10px;
+  
+}
+
+/*----------------------- FIN BOOTSTRAP------------------------- */
+
+
+@import "_Desktop";
+@import "_Tablet";

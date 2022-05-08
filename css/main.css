@@ -50,6 +50,16 @@ h1 {
   color: black;
   font-weight: bold;
   position: relative; }
+  .segundo_menu .VOLVER {
+    display: none; }
+  .segundo_menu button {
+    background: black;
+    background: radial-gradient(circle, black 4%, #292f2f 100%);
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+    height: auto;
+    width: 50px; }
 
 .nav_secu {
   grid-area: nav_secu;
@@ -67,18 +77,15 @@ h1 {
 .portada {
   display: none; }
 
-.segundo_menu .VOLVER {
-  display: none; }
+/*----------------------- BOOTSTRAP------------------------- */
+.accordion-button {
+  background: chartreuse; }
 
-.segundo_menu button {
-  background: black;
-  background: radial-gradient(circle, black 4%, #292f2f 100%);
-  color: white;
-  border-radius: 15px;
-  font-size: 10px;
-  height: auto;
-  width: 50px; }
+/*ESPACIOS ENTRE LAS FILAS DE LA PARETE DE SNAKERS YEZZE DRAGON BALL*/
+.row-yeze-3 {
+  margin-top: 10px; }
 
+/*----------------------- FIN BOOTSTRAP------------------------- */
 @media screen and (min-width: 1024px) {
   .contenedorPadreSupremo {
     grid-template-areas: "navPrincipal navPrincipal navPrincipal" "logo2 header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
