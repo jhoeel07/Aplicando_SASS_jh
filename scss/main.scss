@@ -1,0 +1,106 @@
+
+* {
+    padding: 0; /*HACER ESTO SIEMPRE POR QUE ES RECOMENDABLE*/
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+}
+
+h1{
+
+    color: brown;
+}
+.contenedorPadreSupremo{
+    background-image: url("../imag/menu/fondo-nav.jpg");
+
+    display: grid;
+
+    grid-template-areas:
+    "navPrincipal"
+    "header"
+    "segundo_menu"
+    "main"
+    "nav_secu";
+  
+    color: rgb(236, 214, 185);
+    font-style: italic;
+   width: 100%;
+
+
+}
+.logo2{
+
+    display: none;
+}
+
+.header{
+
+
+    grid-area: header;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url("../imag/menu/fondo-nav.jpg");
+    background-repeat: repeat;
+    padding: 30px;
+    font-size: small;
+
+
+}
+.navPrincipal{
+
+    grid-area: navPrincipal;
+ 
+ 
+ }
+.main{
+
+    grid-area: main;
+    background-attachment: fixed;
+    background-image: url("../imag/menu/fondo-nav.jpg");
+    font-size: larger;
+    color: rgb(236, 214, 185);
+    text-align: center;
+ 
+
+
+}
+.segundo_menu{
+
+
+    grid-area: segundo_menu;
+    background-attachment: fixed;
+    background-image: url("../imag/menu/fondo-nav.jpg");
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+  
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative;
+}
+
+.nav_secu {
+
+    grid-area: nav_secu ;
+    background-attachment: fixed;
+    background-image: url("../imag/menu/fondo_negro_ladri.jpg");
+    background-repeat: repeat;
+    border: solid  rgb(0, 0, 0) 5px ;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portada{
+    display: none;
+
+}
+
+
+@import "_segundoMenu";
+@import "_mediaScreens";

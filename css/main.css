@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  /*HACER ESTO SIEMPRE POR QUE ES RECOMENDABLE*/
+  margin: 0;
+  box-sizing: border-box;
+  font-style: italic; }
+
+h1 {
+  color: brown; }
+
+.contenedorPadreSupremo {
+  background-image: url("../imag/menu/fondo-nav.jpg");
+  display: grid;
+  grid-template-areas: "navPrincipal" "header" "segundo_menu" "main" "nav_secu";
+  color: #ecd6b9;
+  font-style: italic;
+  width: 100%; }
+
+.logo2 {
+  display: none; }
+
+.header {
+  grid-area: header;
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url("../imag/menu/fondo-nav.jpg");
+  background-repeat: repeat;
+  padding: 30px;
+  font-size: small; }
+
+.navPrincipal {
+  grid-area: navPrincipal; }
+
+.main {
+  grid-area: main;
+  background-attachment: fixed;
+  background-image: url("../imag/menu/fondo-nav.jpg");
+  font-size: larger;
+  color: #ecd6b9;
+  text-align: center; }
+
+.segundo_menu {
+  grid-area: segundo_menu;
+  background-attachment: fixed;
+  background-image: url("../imag/menu/fondo-nav.jpg");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  position: relative; }
+
+.nav_secu {
+  grid-area: nav_secu;
+  background-attachment: fixed;
+  background-image: url("../imag/menu/fondo_negro_ladri.jpg");
+  background-repeat: repeat;
+  border: solid black 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.portada {
+  display: none; }
+
+.segundo_menu .VOLVER {
+  display: none; }
+
+.segundo_menu button {
+  background: black;
+  background: radial-gradient(circle, black 4%, #292f2f 100%);
+  color: white;
+  border-radius: 15px;
+  font-size: 10px;
+  height: auto;
+  width: 50px; }
+
+@media screen and (min-width: 1024px) {
+  .contenedorPadreSupremo {
+    grid-template-areas: "navPrincipal navPrincipal navPrincipal" "logo2 header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
+  .segundo_menu {
+    grid-area: segundo_menu;
+    flex-direction: column;
+    justify-content: start;
+    border-right: solid #000;
+    background-image: url(../imag/menu/fondo.png); }
+    .segundo_menu button {
+      border-radius: 0;
+      font-size: 20px;
+      height: 50px;
+      width: 100%; } }
