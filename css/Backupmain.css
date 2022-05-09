@@ -606,19 +606,19 @@ h1{
 
         margin-top: 20PX;
        }
-.accordion-button {
+    .accordion-button {
 
-    background: chartreuse;
-}
-.accordion-body{
+        background: chartreuse;
+    }
+    .accordion-body{
 
-    background: rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
 
-}
-.accordion{
+    }
+    .accordion{
 
-    margin-bottom: 20px ;
-}
+        margin-bottom: 20px ;
+    }
 
  /* ----------------------------------------MODIFICACIONES A BOOSTRAP FIN ----------------------------------- */
   
@@ -741,7 +741,7 @@ h1{
     
     
 
-        /* transisiones  */
+        /*-------------------- transisiones  ------------------------------*/
 
     .contenedor__ModelosInvierno{
         transition: all 0.5s ease-in-out;
@@ -755,10 +755,10 @@ h1{
 
         transition: all 0.5s ease-in-out;
     }
-    .mas_vendidos_fotos{
+    /* ESTO YA NO SIRVE POR QUE LAS FOTOS ESTAN EN UN CARRUSEL.mas_vendidos_fotos{
         transition: all 0.5s ease-in-out;
         
-    }
+    } */
 
     .row-yeze-2 img{
         transition: all 0.5s ease-in-out;

@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-style: italic; }
 
+body {
+  background-attachment: fixed;
+  background-image: url("../imag/menu/fondo-nav.jpg");
+  background-repeat: repeat; }
+
 h1 {
   color: brown; }
 
@@ -213,7 +218,127 @@ h1 {
     border-right: solid #000;
     background-image: url(../imag/menu/fondo.png); }
     .segundo_menu button {
+      background: black;
+      background: radial-gradient(circle, black 4%, #292f2f 100%);
       border-radius: 0;
       font-size: 20px;
       height: 50px;
-      width: 100%; } }
+      width: 100%; }
+  button {
+    background: black;
+    background: radial-gradient(circle, black 4%, #292f2f 100%);
+    border-radius: 0;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    color: white; }
+  /* ----------------------------------------MODIFICACIONES A BOOSTRAP----------------------------------- */
+  .header {
+    font-size: xx-large; }
+  /*----------------------------- animacionnn--------------------- */
+  .logo2 {
+    display: block;
+    grid-area: logo2;
+    animation-name: movimiento-logo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s; }
+  @keyframes movimiento-logo {
+    25% {
+      transform: scale(1.1); }
+    50% {
+      transform: rotateX(360deg); } }
+  /*----------------------------- FINAL animacionnn--------------------- */
+  .main {
+    /* ----------------------------------------MODIFICACIONES A BOOSTRAP FIN ----------------------------------- */
+    /*--------------estilo a la seccion Gorras-------------*/
+    /* ------------------------------pagina SNEAKERS-----------------------------*/
+    /* ----------------portada del la pagina de sneakers -----------------------*/
+    /* ----------------fin de la portada del la pagina de sneakers -----------------------*/
+    /*-----------------parte de la Pagina Mejor del verano-------------------*/
+    /*-----------------parte de la Pagina Mejor del INVIERNo-------------------*/ }
+    .main .carousel {
+      width: 400px;
+      height: auto;
+      margin: auto;
+      transition: 2s ease; }
+    .main .container {
+      margin-top: 20PX; }
+    .main .accordion {
+      margin-bottom: 20px; }
+      .main .accordion .accordion-body {
+        background: black; }
+      .main .accordion .accordion-button {
+        background: chartreuse; }
+    .main .caja_Formulario {
+      font-size: 15px; }
+    .main .table {
+      margin-top: 20px; }
+    .main .gorras {
+      flex-flow: wrap row;
+      justify-content: space-around; }
+      .main .gorras img {
+        width: 380px;
+        height: 360px; }
+    .main .seccion_Jordan {
+      flex-flow: row wrap;
+      justify-content: space-evenly; }
+      .main .seccion_Jordan .cajaJordan1 {
+        transition: all 0.5s ease-in-out; }
+        .main .seccion_Jordan .cajaJordan1:hover {
+          border-color: chartreuse;
+          transform: scale(1.1); }
+    .main .otrasMarcas {
+      flex-flow: row wrap;
+      justify-content: space-evenly; }
+      .main .otrasMarcas .otrasImagZapatilla {
+        transition: all 0.5s ease-in-out; }
+        .main .otrasMarcas .otrasImagZapatilla:hover {
+          border-color: chartreuse;
+          transform: scale(1.1); }
+    .main .row-yeze-2 img {
+      transition: all 0.5s ease-in-out; }
+      .main .row-yeze-2 img:hover {
+        border-color: chartreuse;
+        transform: scale(1.1); }
+    .main .row-yeze-3 img {
+      /*-------------------- transisiones  ------------------------------*/
+      transition: all 0.5s ease-in-out; }
+      .main .row-yeze-3 img:hover {
+        border-color: chartreuse;
+        transform: scale(1.1); }
+    .main .portada {
+      display: block;
+      margin-top: 40px;
+      /*-------------------- transisiones  ------------------------------*/ }
+      .main .portada img {
+        transition: all 1s ease-in-out; }
+        .main .portada img:hover {
+          transform: rotate(360deg); }
+    .main .caja_Formulario {
+      font-size: 15px; }
+    .main .cajaPrincipalmodelosVerano {
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      /*-------------------- transisiones  ------------------------------*/ }
+      .main .cajaPrincipalmodelosVerano .VeranoModelos {
+        transition: all 0.5s ease-in-out; }
+        .main .cajaPrincipalmodelosVerano .VeranoModelos:hover {
+          border-color: chartreuse;
+          transform: scale(1.1);
+          z-index: 30; }
+    .main .cajaPrincipalmodelosInvierno {
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      /*-------------------- transisiones  ------------------------------*/ }
+      .main .cajaPrincipalmodelosInvierno .contenedor__ModelosInvierno {
+        transition: all 0.5s ease-in-out; }
+        .main .cajaPrincipalmodelosInvierno .contenedor__ModelosInvierno:hover {
+          border-color: chartreuse;
+          transform: scale(1.1);
+          z-index: 30; }
+  /* ------------------footer agregadoo -------------------------*/
+  .nav_secu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; } }
