@@ -154,7 +154,7 @@ h1{
 
 
 
-.mas_vendido {
+/*  YA NO FUNCIONARIA POR QUE APLIQUE EL BOOSTRAP DEL CARUSEL DE IMAGENES.mas_vendido {  
   
     display: flex;
     flex-wrap: wrap;
@@ -162,9 +162,7 @@ h1{
     align-items: center;
     justify-content: space-around;
 
-
-
-}
+} */
 .titulos_MainPrincipal{
 
     margin-top: 20px;
@@ -265,8 +263,6 @@ h1{
 .nav_secu ul li a{
     color: greenyellow;
     text-decoration: none;
-
-    
 
 
 }

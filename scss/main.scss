@@ -62,9 +62,164 @@ h1{
     color: rgb(236, 214, 185);
     text-align: center;
  
+    .titulos_MainPrincipal{
+
+        margin-top: 20px;
+        text-align: center;
+        color: brown;
+    }
+
+    /*-----------------aca empieza la Pagina de Sneakers--------------------*/
+    .portada{
+        display: none;
+
+    }
+    .seccion_Jordan{
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+
+            .cajaJordan1{
+
+                margin-top: 40PX;
+                width: 410px;
+                height: auto;
+                border-radius: 10px;
+                border: solid black 5px;
+            }
+    }
+
+
+    .otrasMarcas{
+
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+
+        .otrasImagZapatilla{
+
+            margin-top: 40PX;
+            width: 410px;
+            height: auto;
+            border-radius: 10px;
+            border: solid black 5px;
+        }
+    
+    }
+    .fondo_colores_trasnision{
+
+        width: 100%;
+        background-image: url("../imag/gif/estrellas-entre-las-nubes.gif");
+        background-size: cover;
+
+        .container{
+
+            padding: 30px;
+     
+        }
+        
+      
+    }
+    /*-----------------aca TERMINA la Pagina de Sneakers--------------------*/
+
+
+    /*-----------------parte de la Pagina Mejor del verano-------------------*/
+
+    .cajaPrincipalmodelosVerano{
+
+    
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        .VeranoModelos{
+    
+            margin-top: 40PX;
+            width: 410px;
+            height: auto;
+            border-radius: 10px;
+            font-size: 25px;
+            border: solid black 5px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            z-index: 20;
+        
+        }
+
+
+    }
+    .caja_Formulario{ /*sirve tanto para verano como para la de invierno*/
+
+        margin-top: 40px;
+      text-align: center;
+      color: greenyellow;
+      background-color: rgb(0, 0, 0);
+    
+    }
+
+
+    /*-----------------parte de la Pagina Mejor del Invierno-------------------*/
+
+
+    .cajaPrincipalmodelosInvierno{
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+
+        .contenedor__ModelosInvierno{
+
+            margin-top: 40PX;
+            width: 410px;
+            height: auto;
+            border-radius: 10px;
+            border: solid black 5px;
+            z-index: 20;
+        
+        }
+    
+    }
+
+    /*-----------------parte de la Pagina de la info-------------------*/
+
+    .texto_info{
+
+        background-color: #000;
+
+        .textoAYUDA{
+    
+
+            color: rgb(255, 255, 255);
+        
+            font-size: 25px;
+         
+            font-weight: bold;
+         
+        }
+    }
+
+    .trabaja_con_nosotros{
+        margin-top: 20px;
+        background-image: url("../imag/gif/cielo-estrellado.gif");
+
+        .listaPuestosDisp{
+
+            list-style: none;
+        }
+    }
+    
 
 
 }
+
+
+
 .segundo_menu{
 
 
@@ -105,6 +260,8 @@ h1{
 
 }
 
+// -----------este es el estilo que tiene Nuestro FOOTER-------------------
+
 .nav_secu {
 
     grid-area: nav_secu ;
@@ -118,11 +275,28 @@ h1{
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: center;
-}
-.portada{
-    display: none;
+
+    .nav_cont {
+        list-style: none;
+        li{
+            
+            a{
+                color: greenyellow;
+                }
+        }
+
+    }
+    .columnasFuter{
+        p{
+            color: brown;
+        }
+    }
+    
+    
 
 }
+
+
 
 /*----------------------- BOOTSTRAP------------------------- */
 
@@ -142,5 +316,13 @@ h1{
 /*----------------------- FIN BOOTSTRAP------------------------- */
 
 
-@import "_Desktop";
+
+
+
+
+
 @import "_Tablet";
+@import "_Desktop";
+
+
+

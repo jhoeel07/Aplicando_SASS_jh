@@ -37,7 +37,87 @@ h1 {
   background-image: url("../imag/menu/fondo-nav.jpg");
   font-size: larger;
   color: #ecd6b9;
-  text-align: center; }
+  text-align: center;
+  /*-----------------aca empieza la Pagina de Sneakers--------------------*/
+  /*-----------------aca TERMINA la Pagina de Sneakers--------------------*/
+  /*-----------------parte de la Pagina Mejor del verano-------------------*/
+  /*-----------------parte de la Pagina Mejor del Invierno-------------------*/
+  /*-----------------parte de la Pagina de la info-------------------*/ }
+  .main .titulos_MainPrincipal {
+    margin-top: 20px;
+    text-align: center;
+    color: brown; }
+  .main .portada {
+    display: none; }
+  .main .seccion_Jordan {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; }
+    .main .seccion_Jordan .cajaJordan1 {
+      margin-top: 40PX;
+      width: 410px;
+      height: auto;
+      border-radius: 10px;
+      border: solid black 5px; }
+  .main .otrasMarcas {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; }
+    .main .otrasMarcas .otrasImagZapatilla {
+      margin-top: 40PX;
+      width: 410px;
+      height: auto;
+      border-radius: 10px;
+      border: solid black 5px; }
+  .main .fondo_colores_trasnision {
+    width: 100%;
+    background-image: url("../imag/gif/estrellas-entre-las-nubes.gif");
+    background-size: cover; }
+    .main .fondo_colores_trasnision .container {
+      padding: 30px; }
+  .main .cajaPrincipalmodelosVerano {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .main .cajaPrincipalmodelosVerano .VeranoModelos {
+      margin-top: 40PX;
+      width: 410px;
+      height: auto;
+      border-radius: 10px;
+      font-size: 25px;
+      border: solid black 5px;
+      color: black;
+      font-weight: bold;
+      z-index: 20; }
+  .main .caja_Formulario {
+    /*sirve tanto para verano como para la de invierno*/
+    margin-top: 40px;
+    text-align: center;
+    color: greenyellow;
+    background-color: black; }
+  .main .cajaPrincipalmodelosInvierno {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; }
+    .main .cajaPrincipalmodelosInvierno .contenedor__ModelosInvierno {
+      margin-top: 40PX;
+      width: 410px;
+      height: auto;
+      border-radius: 10px;
+      border: solid black 5px;
+      z-index: 20; }
+  .main .texto_info {
+    background-color: #000; }
+    .main .texto_info .textoAYUDA {
+      color: white;
+      font-size: 25px;
+      font-weight: bold; }
+  .main .trabaja_con_nosotros {
+    margin-top: 20px;
+    background-image: url("../imag/gif/cielo-estrellado.gif"); }
+    .main .trabaja_con_nosotros .listaPuestosDisp {
+      list-style: none; }
 
 .segundo_menu {
   grid-area: segundo_menu;
@@ -73,9 +153,12 @@ h1 {
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center; }
-
-.portada {
-  display: none; }
+  .nav_secu .nav_cont {
+    list-style: none; }
+    .nav_secu .nav_cont li a {
+      color: greenyellow; }
+  .nav_secu .columnasFuter p {
+    color: brown; }
 
 /*----------------------- BOOTSTRAP------------------------- */
 .accordion-button {
