@@ -16,7 +16,11 @@ h1 {
 .contenedorPadreSupremo {
   background-image: url("../imag/menu/fondo-nav.jpg");
   display: grid;
-  grid-template-areas: "navPrincipal" "header" "segundo_menu" "main" "nav_secu";
+  grid-template-areas: "navPrincipal"
+ "header"
+ "segundo_menu"
+ "main"
+ "nav_secu";
   color: #ecd6b9;
   font-style: italic;
   width: 100%; }
@@ -178,7 +182,10 @@ h1 {
 /*----------------------- FIN BOOTSTRAP------------------------- */
 @media screen and (min-width: 768px) {
   .contenedorPadreSupremo {
-    grid-template-areas: "navPrincipal navPrincipal navPrincipal" "header header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
+    grid-template-areas: "navPrincipal navPrincipal navPrincipal"
+ "header header header"
+ "segundo_menu main main"
+ "nav_secu nav_secu nav_secu"; }
   .header {
     font-size: large; }
   .mas_vendidos_fotos {
@@ -210,7 +217,10 @@ h1 {
 
 @media screen and (min-width: 1024px) {
   .contenedorPadreSupremo {
-    grid-template-areas: "navPrincipal navPrincipal navPrincipal" "logo2 header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
+    grid-template-areas: "navPrincipal navPrincipal navPrincipal"
+ "logo2 header header"
+ "segundo_menu main main"
+ "nav_secu nav_secu nav_secu"; }
   .segundo_menu {
     grid-area: segundo_menu;
     flex-direction: column;
@@ -256,7 +266,7 @@ h1 {
     /* ----------------portada del la pagina de sneakers -----------------------*/
     /* ----------------fin de la portada del la pagina de sneakers -----------------------*/
     /*-----------------parte de la Pagina Mejor del verano-------------------*/
-    /*-----------------parte de la Pagina Mejor del INVIERNo-------------------*/ }
+    /*-----------------parte de la Pagina Mejor del INVIERNo-------------------*/}
     .main .carousel {
       width: 400px;
       height: auto;
@@ -336,7 +346,7 @@ h1 {
         .main .cajaPrincipalmodelosInvierno .contenedor__ModelosInvierno:hover {
           border-color: chartreuse;
           transform: scale(1.1);
-          z-index: 30; }
+          z-index: 30; } 
   /* ------------------footer agregadoo -------------------------*/
   .nav_secu {
     display: flex;
