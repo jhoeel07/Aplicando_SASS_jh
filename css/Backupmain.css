@@ -205,28 +205,27 @@ h1{
 
 /*--------------estilo a la seccion Sneakers modo celular-------------*/
 
-.sneakers{
+/* ESTO YA NO SIRVE POR QUE APLIQUE GRID DE BOOSTRAP.sneakers{
 
     display: flex;
     flex-flow: wrap column;
     align-items: center;
   
 
-}
+} 
 
 
 .tabla__sneakers{
 
- 
    
     width: 250px;
     
-}
+}*/
 
 
 /*--------------estilo a la seccion Gorras-------------*/
 
-.gorras{
+/* ESTO YA NO SIRVE POR QUE APLIQUE GRID DE BOOSTRAP.gorras{
 
     display: flex;
     flex-flow: wrap column;
@@ -239,7 +238,7 @@ h1{
    width: 250px;
 
 }
-
+*/
 
 
 

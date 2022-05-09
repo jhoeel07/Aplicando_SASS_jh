@@ -43,6 +43,8 @@ h1 {
   /*-----------------parte de la Pagina Mejor del verano-------------------*/
   /*-----------------parte de la Pagina Mejor del Invierno-------------------*/
   /*-----------------parte de la Pagina de la info-------------------*/ }
+  .main .precios {
+    color: greenyellow; }
   .main .titulos_MainPrincipal {
     margin-top: 20px;
     text-align: center;
@@ -169,6 +171,38 @@ h1 {
   margin-top: 10px; }
 
 /*----------------------- FIN BOOTSTRAP------------------------- */
+@media screen and (min-width: 768px) {
+  .contenedorPadreSupremo {
+    grid-template-areas: "navPrincipal navPrincipal navPrincipal" "header header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
+  .header {
+    font-size: large; }
+  .mas_vendidos_fotos {
+    width: 350px; }
+  .segundo_menu {
+    flex-direction: column;
+    justify-content: start;
+    border-right: solid #000;
+    background-image: url(../imag/menu/fondo.png); }
+    .segundo_menu button {
+      margin: 20px 0px 20px 0px;
+      z-index: 10;
+      border-radius: 0;
+      font-size: 20px;
+      height: 50px;
+      width: 100%; }
+    .segundo_menu h3 {
+      font-size: 50px;
+      margin-top: 20px; }
+    .segundo_menu .VOLVER {
+      display: block;
+      position: fixed;
+      z-index: 1; }
+  /*-----------------parte de la Pagina Mejor del verano-------------------*/
+  .cajaPrincipalmodelosVerano {
+    align-items: center; }
+  .caja_Formulario {
+    font-size: 30px; } }
+
 @media screen and (min-width: 1024px) {
   .contenedorPadreSupremo {
     grid-template-areas: "navPrincipal navPrincipal navPrincipal" "logo2 header header" "segundo_menu main main" "nav_secu nav_secu nav_secu"; }
